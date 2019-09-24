@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="BottomTagsBarView" customModule="卡提諾論壇" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="i8J-TJ-Dbu" userLabel="CollectionView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
+                    <color key="backgroundColor" red="0.86274509799999999" green="0.89019607840000003" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wUR-xe-gF6">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJj-gI-Nep">
+                    <rect key="frame" x="349" y="3" width="26" height="48"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICArrowRight" translatesAutoresizingMaskIntoConstraints="NO" id="vbO-N8-WMP">
+                            <rect key="frame" x="1.5" y="13" width="24.5" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="vbO-N8-WMP" secondAttribute="height" multiplier="8:7" id="hBM-39-S5h"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="Hvw-dr-MCF"/>
+                        <constraint firstItem="vbO-N8-WMP" firstAttribute="height" secondItem="BJj-gI-Nep" secondAttribute="height" multiplier="22:49" id="Kc4-2U-Yzd"/>
+                        <constraint firstItem="vbO-N8-WMP" firstAttribute="centerY" secondItem="BJj-gI-Nep" secondAttribute="centerY" id="ci2-Qx-EvN"/>
+                        <constraint firstAttribute="trailing" secondItem="vbO-N8-WMP" secondAttribute="trailing" id="pQr-nl-4A5"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZP-W7-S00">
+                    <rect key="frame" x="0.0" y="0.0" width="26" height="51"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICArrowLeft" translatesAutoresizingMaskIntoConstraints="NO" id="bXf-rp-mfH">
+                            <rect key="frame" x="0.0" y="14.5" width="25" height="22"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="YWr-kO-sbK"/>
+                        <constraint firstItem="bXf-rp-mfH" firstAttribute="leading" secondItem="rZP-W7-S00" secondAttribute="leading" id="brR-5i-0AX"/>
+                        <constraint firstItem="bXf-rp-mfH" firstAttribute="centerY" secondItem="rZP-W7-S00" secondAttribute="centerY" id="i7r-qZ-jmd"/>
+                        <constraint firstItem="bXf-rp-mfH" firstAttribute="width" secondItem="bXf-rp-mfH" secondAttribute="height" multiplier="8:7" id="kQZ-K2-VDc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJh-1g-M9A">
+                    <rect key="frame" x="331" y="0.0" width="44" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="AJh-1g-M9A" secondAttribute="height" id="SP0-g7-kWG"/>
+                        <constraint firstAttribute="height" constant="44" id="Ylm-pR-wU2"/>
+                    </constraints>
+                    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="extraControlBtnPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Rwd-Zy-WvM"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Mm-o7-JxW" userLabel="topLineView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.33333333329999998" green="0.33333334329999997" blue="0.33333334329999997" alpha="0.82079409250000002" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.20000000000000001" id="NtE-Sf-7S7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="i8J-TJ-Dbu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3sH-bD-edi"/>
+                <constraint firstItem="6Mm-o7-JxW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RIb-Ne-D7i"/>
+                <constraint firstItem="rZP-W7-S00" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Tts-SB-Zsh"/>
+                <constraint firstAttribute="trailing" secondItem="AJh-1g-M9A" secondAttribute="trailing" id="cTn-5X-Il2"/>
+                <constraint firstItem="rZP-W7-S00" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fBe-Ya-A8H"/>
+                <constraint firstItem="6Mm-o7-JxW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fns-yI-2h9"/>
+                <constraint firstAttribute="bottom" secondItem="BJj-gI-Nep" secondAttribute="bottom" id="fvR-87-KVS"/>
+                <constraint firstAttribute="bottom" secondItem="i8J-TJ-Dbu" secondAttribute="bottom" id="gqT-wU-mw7"/>
+                <constraint firstItem="bXf-rp-mfH" firstAttribute="height" secondItem="vbO-N8-WMP" secondAttribute="height" id="jGs-Si-msb"/>
+                <constraint firstAttribute="trailing" secondItem="i8J-TJ-Dbu" secondAttribute="trailing" id="jbF-bP-puU"/>
+                <constraint firstItem="i8J-TJ-Dbu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pDc-4n-QpS"/>
+                <constraint firstAttribute="bottom" secondItem="rZP-W7-S00" secondAttribute="bottom" id="pO6-5t-dQ3"/>
+                <constraint firstItem="AJh-1g-M9A" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="w2W-9f-TdI"/>
+                <constraint firstAttribute="trailing" secondItem="6Mm-o7-JxW" secondAttribute="trailing" id="wyE-J5-0Xj"/>
+                <constraint firstAttribute="trailing" secondItem="BJj-gI-Nep" secondAttribute="trailing" id="yhm-sA-1y9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="_leftArrowImgView" destination="bXf-rp-mfH" id="Kog-hW-CnC"/>
+                <outlet property="_leftArrowView" destination="rZP-W7-S00" id="Taf-aD-ewu"/>
+                <outlet property="_leftArrowWidthLayout" destination="YWr-kO-sbK" id="rOH-Sw-Okq"/>
+                <outlet property="_rightArrowImgView" destination="vbO-N8-WMP" id="WDT-co-T0U"/>
+                <outlet property="_rightArrowView" destination="BJj-gI-Nep" id="6bS-DO-cXq"/>
+                <outlet property="_rightArrowWidthLayout" destination="Hvw-dr-MCF" id="Fbx-3R-PFU"/>
+                <outlet property="_topLineHeightLayout" destination="NtE-Sf-7S7" id="esQ-Dx-nwN"/>
+                <outlet property="_topSeperatorLine" destination="6Mm-o7-JxW" id="8Pm-Jf-gWz"/>
+                <outlet property="extraControlBtn" destination="AJh-1g-M9A" id="kBo-m5-BY2"/>
+                <outlet property="extraControlBtnHeightLayout" destination="Ylm-pR-wU2" id="05s-S9-9JX"/>
+                <outlet property="tagsCollectionView" destination="i8J-TJ-Dbu" id="Wou-RG-WOB"/>
+            </connections>
+            <point key="canvasLocation" x="-115.5" y="-357.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ICArrowLeft" width="22" height="22"/>
+        <image name="ICArrowRight" width="22" height="22"/>
+    </resources>
+</document>
