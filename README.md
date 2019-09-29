@@ -7,3 +7,8 @@
 	- Header
 	- Footer
 - Segment
+
+<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/RefreshHeaderFooter.svg" width="388"/>
+<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/Segment.svg" width="388"/>
+<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/Shimmer.svg" width="388"/>
+<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/ShimmerOnList.svg" width="388"/>
