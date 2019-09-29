@@ -8,7 +8,6 @@
 	- Footer
 - Segment
 
-<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/RefreshHeaderFooter.svg" width="388"/>
-<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/Segment.svg" width="388"/>
-<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/Shimmer.svg" width="388"/>
-<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/ShimmerOnList.svg" width="388"/>
+<img src="https://www.chiaoni3145951.com/App/DemoVideo/GradientDemo/SimpleDemo.svg" width="200"/>
+<img src="https://www.chiaoni3145951.com/App/DemoVideo/GradientDemo/Mask.svg" width="200"/>
+<img src="https://www.chiaoni3145951.com/App/DemoVideo/GradientDemo/BatteryView.svg" width="200"/>
