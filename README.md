@@ -3,9 +3,14 @@
 - Shimmer
 	- Normal case
 	- On cell.
+	
+- Segment
+
 - PullRefresh
 	- Header
 	- Footer
-- Segment
 
-<img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/RefreshHeaderFooter.gif" width="200"/> <img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/Segment.gif" width="200"/> <img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/Shimmer.gif" width="200"/> <img src="https://www.chiaoni3145951.com/App/DemoVideo/CustomViewDemo/ShimmerOnList.gif" width="200"/>
+<img src="https://www.dropbox.com/s/otxx89jt0xxywkq/Shimmer.gif?raw=1" width="200"/>
+<img src="https://www.dropbox.com/s/rzmnpz1vcnyumrh/ShimmerOnList.gif?raw=1" width="200"/>
+<img src="https://www.dropbox.com/s/mjsus342smsjxr9/Segment.gif?raw=1" width="200"/>
+<img src="https://www.dropbox.com/s/rcc0lnha9rm6lky/RefreshHeaderFooter.gif?raw=1" width="200"/>
