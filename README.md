@@ -11,6 +11,4 @@
 	- Footer
 
 <img src="https://www.dropbox.com/s/otxx89jt0xxywkq/Shimmer.gif?raw=1" width="300"/>
-<img src="https://www.dropbox.com/s/qkkjigijgiot8am/ShimmerOnList.gif?raw=1" width="300"/>
 <img src="https://www.dropbox.com/s/mjsus342smsjxr9/Segment.gif?raw=1" width="300"/>
-<img src="https://www.dropbox.com/s/rcc0lnha9rm6lky/RefreshHeaderFooter.gif?raw=1" width="300"/>
